@@ -1,0 +1,21 @@
+{
+  "name": "websocket-chat-app",
+  "version": "1.0.0",
+  "description": "A simple real-time chat application using Express and Socket.IO",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Nozibul Islam",
+  "license": "ISC",
+  "keywords": ["websocket", "chat", "socket.io", "express", "real-time"],
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
